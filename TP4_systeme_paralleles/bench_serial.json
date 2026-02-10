@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "python": "3.12.3",
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "processor": "x86_64",
+    "numpy": "2.4.1",
+    "scipy": "1.17.0",
+    "pygame": "2.6.1",
+    "correctness": {
+      "dims": [
+        30,
+        30
+      ],
+      "steps": 10,
+      "all_equal": true,
+      "equal_each_step": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  },
+  "results": [
+    {
+      "dims": [
+        50,
+        50
+      ],
+      "steps": 200,
+      "slow_s_per_iter": 0.02603653978500006,
+      "vect_s_per_iter": 0.00015172426499930226,
+      "speedup": 171.60432304694172
+    },
+    {
+      "dims": [
+        100,
+        100
+      ],
+      "steps": 80,
+      "slow_s_per_iter": 0.0816472573249996,
+      "vect_s_per_iter": 0.00044471887499639704,
+      "speedup": 183.59296606347343
+    },
+    {
+      "dims": [
+        200,
+        200
+      ],
+      "steps": 30,
+      "slow_s_per_iter": 0.30383481133332374,
+      "vect_s_per_iter": 0.002232613700001214,
+      "speedup": 136.0892891292204
+    },
+    {
+      "dims": [
+        400,
+        400
+      ],
+      "steps": 10,
+      "slow_s_per_iter": 1.2096826488999795,
+      "vect_s_per_iter": 0.009889401999998881,
+      "speedup": 122.32111192366497
+    }
+  ]
+}

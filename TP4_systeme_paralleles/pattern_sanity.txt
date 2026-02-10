@@ -1,0 +1,12 @@
+Pattern sanity-checks
+- OK   blinker  dims=(5, 5) steps=10: loops == vectorisé
+- OK   toad     dims=(6, 6) steps=10: loops == vectorisé
+- OK   beacon   dims=(6, 6) steps=10: loops == vectorisé
+- OK   boat     dims=(5, 5) steps=10: loops == vectorisé
+- OK   glider   dims=(100, 90) steps=10: loops == vectorisé
+- OK   boat     dims=(5, 5) steps=1: still life
+- OK   blinker  dims=(5, 5) steps=2: période 2
+- OK   toad     dims=(6, 6) steps=2: période 2
+- OK   beacon   dims=(6, 6) steps=2: période 2
+- OK   pulsar   dims=(17, 17) steps=3: période 3
+- OK   glider   dims=(100, 90) steps=4: translation (1,1) en 4 pas
